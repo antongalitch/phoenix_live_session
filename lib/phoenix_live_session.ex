@@ -71,7 +71,7 @@ defmodule PhoenixLiveSession do
     * `:lifetime` - Lifetime (in ms) of sessions before they are cleared.
        Reads and writes refresh session lifetime. Defaults to two days.
     * `clean_interval` - Interval (in ms) after which expired PhoenixLiveSession
-      are cleared. Defaulst to 60 seconds.
+      are cleared. Defaults to 60 seconds.
 
   ## Caveats
   Since sessions are stored in memory, they will be lost when restarting
